@@ -9,7 +9,7 @@ An automated, AI-powered Telegram bot for seamless receipt recognition and finan
 
 ## ✨ Core Features
 
-* **🤖 AI-Powered OCR & Parsing:** Utilizes Gemini 1.5 Flash to accurately extract Vendor, Tax, Amount, Date, and Category from messy receipt images.
+* **🤖 AI-Powered OCR & Parsing:** Utilizes Gemini 3.5 Flash to accurately extract Vendor, Tax, Amount, Date, and Category from messy receipt images.
 * **📱 Telegram Bot Interface:** Simple, conversational UI for users to upload receipts and approve/edit extracted data via inline keyboards.
 * **☁️ Google Ecosystem Integration:**
   * Syncs transaction data directly to Google Sheets as a database.
