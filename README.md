@@ -42,9 +42,13 @@ User (Telegram)
 ### 1. Prerequisites
 
 Before you begin, ensure you have the following:
+
 A Telegram Bot Token (Get it from @BotFather)
+
 A Google Gemini API Key (From Google AI Studio)
+
 Google Cloud Console configured with Google Drive API and Google Sheets API enabled.
+
 Downloaded OAuth 2.0 Client ID JSON file (rename it to credentials.json).
 
 
