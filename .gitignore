@@ -1,0 +1,21 @@
+# .gitignore
+
+# 1. 敏感配置与密钥 (绝对不能上传!)
+.env
+credentials.json
+token.json
+
+# 2. 本地数据库与日志 (不需要上传)
+database/cache.db
+logs/
+*.log
+
+# 3. Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. 虚拟环境 (如果有的话)
+venv/
+env/
+.venv/
