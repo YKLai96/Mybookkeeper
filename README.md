@@ -36,8 +36,8 @@ User (Telegram)
                        ├─> 4. Append record & Drive URL to Google Sheets
                        └─> 5. Cleanup local temp files
 ```
-🚀 Quick Start
-1. Prerequisites
+## 🚀 Quick Start
+### 1. Prerequisites
 Before you begin, ensure you have the following:
 
 A Telegram Bot Token (Get it from @BotFather)
@@ -48,7 +48,7 @@ Google Cloud Console configured with Google Drive API and Google Sheets API enab
 
 Downloaded OAuth 2.0 Client ID JSON file (rename it to credentials.json).
 
-2. Installation
+### 2. Installation
 Clone the repository to your local machine or server:
 
 Bash
@@ -58,7 +58,7 @@ Install the required Python dependencies (Virtual environment recommended):
 
 Bash
 pip install python-telegram-bot google-generativeai gspread google-api-python-client google-auth-httplib2 google-auth-oauthlib dotenv backoff
-3. Configuration
+### 3. Configuration
 Create a .env file in the root directory and add your secret credentials:
 
 Code snippet
@@ -67,15 +67,15 @@ GEMINI_API_KEY=your_gemini_api_key_here
 SPREADSHEET_NAME=your_google_sheet_name_here
 ⚠️ SECURITY WARNING: Never commit your .env, credentials.json, or token.json to GitHub! Ensure they are listed in your .gitignore.
 
-4. Run the Application
+### 4. Run the Application
 Start the bot engine:
 
 Bash
 python run.py
 Note: On the very first run, a browser window will open asking you to log into your Google Account to authorize the application. This will generate a token.json file for future automated authentications.
 
-📝 Logging & Monitoring
+## 📝 Logging & Monitoring
 The application includes a built-in DevSecOps daemon that rotates logs automatically. Check the logs/system.log file to monitor API latencies, AI parsing errors, or system health.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
