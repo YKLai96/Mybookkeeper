@@ -35,6 +35,7 @@ User (Telegram)
                        ├─> 3. Upload image to Google Drive
                        ├─> 4. Append record & Drive URL to Google Sheets
                        └─> 5. Cleanup local temp files
+```
 🚀 Quick Start
 1. Prerequisites
 Before you begin, ensure you have the following:
@@ -51,7 +52,7 @@ Downloaded OAuth 2.0 Client ID JSON file (rename it to credentials.json).
 Clone the repository to your local machine or server:
 
 Bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/Mybookkeeper.git](https://github.com/YOUR_GITHUB_USERNAME/Mybookkeeper.git)
+git clone https://github.com/YOUR_GITHUB_USERNAME/Mybookkeeper.git
 cd Mybookkeeper
 Install the required Python dependencies (Virtual environment recommended):
 
